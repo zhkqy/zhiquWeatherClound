@@ -230,7 +230,7 @@ public class MySurfaceView extends SurfaceView implements SurfaceHolder.Callback
 //            每隔一段时间添加雨滴
             if (arrayRaindrop != null && arrayRaindrop.size() > 0) {
                 for (Raindrop rain : arrayRaindrop) {
-                    rain.addRaindrop(3000);
+                    rain.addRaindrop(2000);
                 }
             }
         }
