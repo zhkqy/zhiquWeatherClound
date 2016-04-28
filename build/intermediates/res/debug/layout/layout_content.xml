@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aa000000"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/linear_line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#11000000"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal" >
+
+                    <include layout="@layout/layout_content_item" />
+
+                    <include layout="@layout/layout_content_item" />
+
+                    <include layout="@layout/layout_content_item" />
+
+                    <include layout="@layout/layout_content_item" />
+
+                    <include layout="@layout/layout_content_item" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/line_draw"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#11000000"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal" >
+
+                    <include layout="@layout/layout_content_weather_item" />
+
+                    <include layout="@layout/layout_content_weather_item" />
+
+                    <include layout="@layout/layout_content_weather_item" />
+
+                    <include layout="@layout/layout_content_weather_item" />
+
+                    <include layout="@layout/layout_content_weather_item" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#11000000"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="六小时精确预报"
+                    android:textColor="#ffffff" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#ffffff" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal" >
+
+                    <include layout="@layout/layout_content_precise_item" />
+
+                    <include layout="@layout/layout_content_precise_item" />
+
+                    <include layout="@layout/layout_content_precise_item" />
+
+                    <include layout="@layout/layout_content_precise_item" />
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#11000000"
+                android:orientation="vertical">
+                
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="生活指数"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#ffffff"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#ffffff" />
+                
+                
+                
+                
+                
+            </LinearLayout>
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/C:/Users/chenlei/Desktop/androidstuidio/zhiquWeatherClound-master/res/layout/layout_content.xml -->

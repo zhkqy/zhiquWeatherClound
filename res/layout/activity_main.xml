@@ -1,0 +1,202 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relative_content"
+        android:layout_width="match_parent"
+        android:background="#415c68"
+        android:layout_height="match_parent">
+
+    <com.yilongweather.app.surfaceview.weather.MySurfaceView
+            android:id="@+id/animation"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+    <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+        <TextView
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:id="@+id/tv_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="7/15 五月三十"/>
+
+        <TextView
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:id="@+id/tv_temper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_month"
+                android:layout_marginTop="10dp"
+                android:text="23~30 雷阵雨"/>
+
+        <TextView
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:id="@+id/tv_wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/tv_temper"
+                android:layout_marginTop="10dp"
+                android:text="东北风1级"/>
+
+        <TextView
+                android:id="@+id/tv_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:text="29"
+                android:textSize="40sp"/>
+
+        <ImageView
+                android:id="@+id/img_circle"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/tv_num"
+                android:src="@drawable/main_circle"/>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#1baeb0"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                    android:id="@+id/lin_today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/tv_today"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:text="今天"/>
+
+                <ImageView
+                        android:id="@+id/img_today"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/icon_rainy_light_blue"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/lin_two_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:textColor="@android:color/white"
+                        android:id="@+id/tv_two_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="周三"/>
+
+                <ImageView
+                        android:id="@+id/img_two_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/icon_rainy_light_blue"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/lin_three_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:textColor="@android:color/white"
+                        android:id="@+id/tv_three_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="周四"/>
+
+                <ImageView
+                        android:id="@+id/img_three_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/icon_rainy_light_blue"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/lin_four_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:textColor="@android:color/white"
+                        android:id="@+id/tv_four_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="周五"/>
+
+                <ImageView
+                        android:id="@+id/img_four_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/icon_rainy_light_blue"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/lin_five_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:textColor="@android:color/white"
+                        android:id="@+id/tv_five_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="周六"/>
+
+                <ImageView
+                        android:id="@+id/img_five_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/icon_rainy_light_blue"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

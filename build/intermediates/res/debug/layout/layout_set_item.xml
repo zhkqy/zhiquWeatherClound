@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/linear_wire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="1dp"
+            android:background="#ffc5faff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            
+            android:background="#ff0000" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_wire"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="天气更新"
+        android:textSize="15sp" />
+    
+    
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/settings_item_arrow" />
+
+    <TextView
+        android:id="@+id/text_auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/img"
+        android:layout_marginRight="10dp"
+        android:text="自动更新"
+        android:textSize="10sp" />
+
+    
+
+</RelativeLayout><!-- From: file:/C:/Users/chenlei/Desktop/androidstuidio/zhiquWeatherClound-master/res/layout/layout_set_item.xml -->

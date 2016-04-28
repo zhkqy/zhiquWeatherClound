@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/tv_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="哈尔滨"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        />
+    
+    <ImageView 
+        android:id="@+id/img_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_rainy_light_blue"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"/>
+    
+    
+    <TextView 
+        android:id="@+id/tv_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="27"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/img_list_item"
+        android:layout_marginRight="10dp"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffcfe8ff"
+        android:layout_below="@id/img_list_item"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        />
+    
+
+</RelativeLayout>

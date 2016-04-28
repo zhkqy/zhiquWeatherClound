@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\chenlei\Desktop\androidstuidio\zhiquWeatherClound-master\libs\android-async-http-1.4.5(1).jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881">
+        <dex dex="C:\Users\chenlei\Desktop\androidstuidio\zhiquWeatherClound-master\build\intermediates\pre-dexed\debug\android-async-http-1.4.5(1)-ea0a0417644f076eba045428903174ff34b162e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\chenlei\Desktop\androidstuidio\zhiquWeatherClound-master\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a13f8fe2c278737e2f0b6fcf00f6b2ae4034aacf">
+        <dex dex="C:\Users\chenlei\Desktop\androidstuidio\zhiquWeatherClound-master\build\intermediates\pre-dexed\debug\android-support-v4-abfb34593ae90e047e58ea01a7628cabb9137ca6.jar" />
+    </item>
+    <item
+        jar="C:\Users\chenlei\Desktop\androidstuidio\zhiquWeatherClound-master\libs\eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="C:\Users\chenlei\Desktop\androidstuidio\zhiquWeatherClound-master\build\intermediates\pre-dexed\debug\eventbus-2.4.0-58da558aab42c6e5fc478779d602326e34510b79.jar" />
+    </item>
+    <item
+        jar="C:\Users\chenlei\Desktop\androidstuidio\zhiquWeatherClound-master\libs\commons-codec-1.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b7f0fc8f61ecadeb3695f0b9464755eee44374d4">
+        <dex dex="C:\Users\chenlei\Desktop\androidstuidio\zhiquWeatherClound-master\build\intermediates\pre-dexed\debug\commons-codec-1.6-a7a2a8027860730415e5622b5e2ba4177df2ee30.jar" />
+    </item>
+    <item
+        jar="C:\Users\chenlei\Desktop\androidstuidio\zhiquWeatherClound-master\libs\httpcore-4.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2d503272bf0a8b5f92d64db78b4ba9abbaccc6fd">
+        <dex dex="C:\Users\chenlei\Desktop\androidstuidio\zhiquWeatherClound-master\build\intermediates\pre-dexed\debug\httpcore-4.2.1-8055b61d2c61c5ebe0a8cb65b73b34bd688e607d.jar" />
+    </item>
+    <item
+        jar="C:\Users\chenlei\Desktop\androidstuidio\zhiquWeatherClound-master\libs\okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="C:\Users\chenlei\Desktop\androidstuidio\zhiquWeatherClound-master\build\intermediates\pre-dexed\debug\okhttp-2.4.0-8827f2f821181cef0727fee2c9d48e4a04766da6.jar" />
+    </item>
+    <item
+        jar="C:\Users\chenlei\Desktop\androidstuidio\zhiquWeatherClound-master\libs\commons-httpclient-3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="964cd74171f427720480efdec40a7c7f6e58426a">
+        <dex dex="C:\Users\chenlei\Desktop\androidstuidio\zhiquWeatherClound-master\build\intermediates\pre-dexed\debug\commons-httpclient-3.1-556a7adc197b78ffe2f29c1c34a0efc2adf44dec.jar" />
+    </item>
+
+</items>

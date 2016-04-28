@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginLeft="20dp"
+            android:hint="输入城市"/>
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/behind_add_city_cancel"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffeee9"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp">
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/grid_city"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:verticalSpacing="20dp"
+        android:layout_marginLeft="30dp"
+        android:numColumns="3">
+
+    </GridView>
+
+</LinearLayout><!-- From: file:/C:/Users/chenlei/Desktop/androidstuidio/zhiquWeatherClound-master/res/layout/layout_city.xml -->

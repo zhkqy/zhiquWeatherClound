@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffc5faff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <RelativeLayout
+            android:id="@+id/relative_set"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/img_set_back"
+                android:layout_width="10dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/settings_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/img_set_back"
+                android:text="设置"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="常规"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="通知栏天气"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+            <include
+                android:id="@+id/in_update"
+                layout="@layout/layout_set_item"/>
+
+            <include
+                android:id="@+id/in_remind"
+                layout="@layout/layout_set_item"/>
+
+
+            <include
+                android:id="@+id/in_table"
+                layout="@layout/layout_set_item"/>
+
+            <include
+                android:id="@+id/in_sign"
+                layout="@layout/layout_set_item"/>
+
+            <include
+                android:id="@+id/in_activity"
+                layout="@layout/layout_set_item"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="其他"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"/>
+
+            <include
+                android:id="@+id/in_suggest"
+                layout="@layout/layout_set_item"/>
+
+            <include
+                android:id="@+id/in_help"
+                layout="@layout/layout_set_item"/>
+
+            <include
+                android:id="@+id/in_about"
+                layout="@layout/layout_set_item"/>
+
+            <include
+                android:id="@+id/in_attention"
+                layout="@layout/layout_set_item"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
